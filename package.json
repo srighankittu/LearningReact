@@ -1,0 +1,22 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "My React Learning Progress",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/srighankittu/LearningReact.git"
+  },
+  "author": "Srighan_Vedere",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srighankittu/LearningReact/issues"
+  },
+  "homepage": "",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}
