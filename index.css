@@ -53,3 +53,12 @@
 .res-logo {
     width:100%;
 }
+
+.filter-btn{
+    margin: 5px;
+    cursor: pointer;
+}
+
+.filter-btn:hover{
+    background-color: #f0f0f0;
+}
