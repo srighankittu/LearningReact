@@ -3,6 +3,7 @@ import resList from "../utils/mockData";
 import { useEffect, useState } from "react";
 import { Swiggy_API } from "../utils/common";
 import Shimmer from "./Shimmer";
+import { Link } from "react-router-dom";
 
 const Body = () => {
     const [searchText, setSearchText] = useState("");
@@ -28,7 +29,7 @@ const Body = () => {
         <div className="body">
             {/* <div className="search">Search</div> */}
             {/* {console.log(testResList)} */}
-            <div className="filter">
+            <div className="filter-body">
                 <div className="search">
                     <input type="text" className="search-box" value={searchText} onChange={(e) => {
                         setSearchText(e.target.value); 
@@ -44,7 +45,7 @@ const Body = () => {
                         );
                         setFilteredListOfRestaurants(filteredListOfRes);
                         // setListOfRestaurants(filteredRes);
-                    }}>Search</button>
+                    }} className="filter-btn">Search</button>
                 </div>
                 <button className="filter-btn" onClick={() => {
                     const filteredList = listOfRestaurants.filter(
@@ -57,7 +58,9 @@ const Body = () => {
             <div className="res-container">
                 {
                     filteredListOfRestaurants.map((restaurant) => (
-                        <RestaurantCard key={restaurant.info.id} resData={restaurant}/>
+                        <Link className="linkStyles" key={restaurant.info.id}  to={"restaurant/" + restaurant.info.id} style={{ textDecoration: 'none', margin: "50px" }}>
+                            <RestaurantCard resData={restaurant}/>
+                        </Link>
                     ))
                 }
             </div>

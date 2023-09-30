@@ -1,26 +1,26 @@
 const Shimmer = () => {
     return (
-        <div class="card-container">
-            <div class="shimmer-card"></div>
-            <div class="shimmer-card"></div>
-            <div class="shimmer-card"></div>
-            <div class="shimmer-card"></div>
-            <div class="shimmer-card"></div>
-            <div class="shimmer-card"></div>
-            <div class="shimmer-card"></div>
-            <div class="shimmer-card"></div>
-            <div class="shimmer-card"></div>
-            <div class="shimmer-card"></div>
-            <div class="shimmer-card"></div>
-            <div class="shimmer-card"></div>
-            <div class="shimmer-card"></div>
-            <div class="shimmer-card"></div>
-            <div class="shimmer-card"></div>
-            <div class="shimmer-card"></div>
-            <div class="shimmer-card"></div>
-            <div class="shimmer-card"></div>
-            <div class="shimmer-card"></div>
-            <div class="shimmer-card"></div>
+        <div className="card-container">
+            <div className="shimmer-card"></div>
+            <div className="shimmer-card"></div>
+            <div className="shimmer-card"></div>
+            <div className="shimmer-card"></div>
+            <div className="shimmer-card"></div>
+            <div className="shimmer-card"></div>
+            <div className="shimmer-card"></div>
+            <div className="shimmer-card"></div>
+            <div className="shimmer-card"></div>
+            <div className="shimmer-card"></div>
+            <div className="shimmer-card"></div>
+            <div className="shimmer-card"></div>
+            <div className="shimmer-card"></div>
+            <div className="shimmer-card"></div>
+            <div className="shimmer-card"></div>
+            <div className="shimmer-card"></div>
+            <div className="shimmer-card"></div>
+            <div className="shimmer-card"></div>
+            <div className="shimmer-card"></div>
+            <div className="shimmer-card"></div>
         </div>
     );
 }

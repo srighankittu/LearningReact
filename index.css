@@ -159,9 +159,14 @@
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     display: flex;
     overflow: hidden;
-    max-width: 400px;
+    width: 400px;
     margin: 20px auto;
     position: relative;
+}
+
+.restaurant-card:hover{
+    border: 3px solid black;
+    cursor: pointer;
 }
 
 /* Shimmer effect */
@@ -223,5 +228,336 @@
 }
 
 .navigation a:hover {
-    color: #FFD700;
+    color: purple;
 }
+
+/* Reset some default styles for consistency */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the page */
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.about-us {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.about-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.restaurant-name {
+    font-weight: bold;
+    color: #333;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+/* Your existing CSS styles (from the previous example) */
+
+/* Stylish CSS animations */
+.special-dishes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.dish {
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.dish:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.dish img {
+    width: 100%;
+    height: auto;
+}
+
+.dish h3 {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.dish p {
+    padding: 15px;
+    margin: 0;
+}
+
+/* Reset some default styles for consistency */
+
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.contact-form {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
+
+.contact-info {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.info-label {
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.error-container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.error-heading {
+    font-size: 4rem;
+    color: #e74c3c;
+    margin-bottom: 20px;
+}
+
+.error-message {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.error-link {
+    display: inline-block;
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.error-link:hover {
+    background-color: #c0392b;
+}
+
+.filter-body {
+    display: flex;
+}
+
+.search {
+    display: flex;
+    height: 50px;
+}
+
+.btn-search{
+    height:50px;
+}
+
+.restaurant-header{
+    border: 1px solid black;
+    margin-top: 3px;
+}
+
+/* Styles for the restaurant menu page */
+
+.restaurant-menu {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .restaurant-name {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .restaurant-cuisine,
+  .restaurant-cost-for-two,
+  .restaurant-distance,
+  .restaurant-ratings {
+    font-size: 16px;
+    color: #777;
+    margin: 10px 0;
+  }
+  
+  .menu-heading {
+    font-size: 20px;
+    color: #444;
+    margin: 20px 0;
+  }
+  
+  .menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .item-name {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .item-price {
+    font-weight: bold;
+    color: #777;
+  }
+  
+  /* Add more custom styles as needed */
+  
+  /* Example custom style for buttons */
+  .custom-button {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .custom-button:hover {
+    background-color: #ff9900;
+  }
+  
+  .linkStyles{
+    all:none;
+  }
