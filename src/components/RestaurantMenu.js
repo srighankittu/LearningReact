@@ -34,6 +34,7 @@ const RestaurantMenu = () => {
           <div className="menu-items">
             <h2 className="menu-heading">Menu Items:</h2>
             <ul className="menu-list">
+              {console.log(menuItems)}
               {menuItems.map((item) => (
                   <li className="menu-item" key={item.card.info.id}>
                     <span className="item-name">{item.card.info.name}</span>
